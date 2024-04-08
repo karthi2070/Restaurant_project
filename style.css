@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.p-5{
+    background-image: url(./bg/bg-6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+.today-special{
+    background-color: rgb(28, 28, 28);
+    height: auto;
+    
+}
+.card{
+    overflow: hidden;
+}
+.card img{
+    height: 170px;
+}
+.card img:hover{
+    transform: scale(1.13);
+    transition: all 0.5s;
+}
+#test-rew{
+    width: 30%;
+}
